@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+
+<html>
+   <body 
+      style="
+         margin: 0;
+         padding: 0;
+      "
+   >
+      <img src="images/panel gray.png" id="panel"
+         onmouseover="document.getElementById('panel').style.display='block';"
+         onmouseleave="document.getElementById('panel').style.display='none';"
+         style="
+            width: 100vw;
+            height: auto;
+            position: absolute;
+            top: 9.33vw;
+            display: none;
+         "
+      />
+      <div class="panel-toggle" 
+         onmouseover="document.getElementById('panel').style.display='block';"
+         onmouseleave="document.getElementById('panel').style.display='none';"
+      ></div>
+      <img src="images/EDGE Landing Page.jpg" 
+         style="
+            width: 100vw;
+            height: auto;
+         "
+      />
+   </body>
+
+   <style>
+      .panel-toggle {
+         position: absolute;
+         top: 9.33vw;
+         left: 7.7vw;
+         height: 5vw;
+         width: 40vw;
+         background: transparent;
+         z-index: 2;
+      }
+   </style>
+</html>
